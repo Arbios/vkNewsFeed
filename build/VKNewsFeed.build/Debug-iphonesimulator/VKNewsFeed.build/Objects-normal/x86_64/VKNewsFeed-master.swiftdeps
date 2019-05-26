@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "52afef2d0d6e3e703da7f7fe8b9c7ed8"
+build_time: [1558875260, 862782000]
+inputs:
+  "/Users/arbibashaev/Developer/Learn/VKNewsFeed/VKNewsFeed/ViewController.swift": [1558871243, 12251509]
+  "/Users/arbibashaev/Developer/Learn/VKNewsFeed/VKNewsFeed/AppDelegate.swift": [1558871243, 3085311]
