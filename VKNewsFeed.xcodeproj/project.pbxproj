@@ -13,6 +13,8 @@
 		5A330E31229ADE7400D6DE87 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A330E30229ADE7400D6DE87 /* FeedViewController.swift */; };
 		5A330E33229ADE7E00D6DE87 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A330E32229ADE7D00D6DE87 /* FeedViewController.storyboard */; };
 		5A330E35229AE04800D6DE87 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A330E34229AE04800D6DE87 /* UIViewController+Storyboard.swift */; };
+		5A330E38229AE4B300D6DE87 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A330E37229AE4B300D6DE87 /* NetworkService.swift */; };
+		5A330E3A229AE55400D6DE87 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A330E39229AE55400D6DE87 /* API.swift */; };
 		5AE994AE229AB44B00D2E12C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE994AD229AB44B00D2E12C /* AppDelegate.swift */; };
 		5AE994B5229AB44C00D2E12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE994B4229AB44C00D2E12C /* Assets.xcassets */; };
 		5AE994B8229AB44C00D2E12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE994B6229AB44C00D2E12C /* LaunchScreen.storyboard */; };
@@ -26,6 +28,8 @@
 		5A330E30229ADE7400D6DE87 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5A330E32229ADE7D00D6DE87 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
 		5A330E34229AE04800D6DE87 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		5A330E37229AE4B300D6DE87 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5A330E39229AE55400D6DE87 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		5AE994AA229AB44A00D2E12C /* VKNewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKNewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE994AD229AB44B00D2E12C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE994B4229AB44C00D2E12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				5A330E28229AC86100D6DE87 /* AuthService.swift */,
+				5A330E37229AE4B300D6DE87 /* NetworkService.swift */,
+				5A330E39229AE55400D6DE87 /* API.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -210,7 +216,9 @@
 				5A330E2C229ACA7E00D6DE87 /* AuthViewController.swift in Sources */,
 				5A330E31229ADE7400D6DE87 /* FeedViewController.swift in Sources */,
 				5A330E35229AE04800D6DE87 /* UIViewController+Storyboard.swift in Sources */,
+				5A330E38229AE4B300D6DE87 /* NetworkService.swift in Sources */,
 				5AE994AE229AB44B00D2E12C /* AppDelegate.swift in Sources */,
+				5A330E3A229AE55400D6DE87 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
