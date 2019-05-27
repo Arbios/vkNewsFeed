@@ -25,6 +25,7 @@ class NewsfeedInteractor: NewsfeedBusinessLogic {
     switch request {
     case .some:
         print(".some Interactor")
+        presenter?.presentData(response: .some)
     case .getFeed:
         print(".getFeed Interactor")
         presenter?.presentData(response: .presentNewsFeed)

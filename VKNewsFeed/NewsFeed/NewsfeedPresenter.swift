@@ -19,6 +19,7 @@ class NewsfeedPresenter: NewsfeedPresentationLogic {
     switch response {
     case .some:
         print(".some Presenter")
+        viewController?.displayData(viewModel: .displayNewsFeed)
     case .presentNewsFeed:
         print(".presentNewsFeed Presenter")
         viewController?.displayData(viewModel: .displayNewsFeed)
