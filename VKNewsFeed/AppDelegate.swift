@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AuthServiceDelegate {
     
     var authService: AuthService!
     
-    
     static func shared() -> AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
     }
@@ -68,7 +67,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AuthServiceDelegate {
     
     func authServiceSignIn() {
         print(#function)
-        let feedVC: FeedViewController = FeedViewController.loadFromStoryboard()
+        let feedVC: NewsfeedViewController = NewsfeedViewController.loadFromStoryboard()
         let navVC = UINavigationController(rootViewController: feedVC)
         window?.rootViewController = navVC
     }

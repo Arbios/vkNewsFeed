@@ -14,6 +14,4 @@ struct API {
     static let version = "5.95"
     
     static let newsFeed = "/method/newsfeed.get"
-    
-    
 }
